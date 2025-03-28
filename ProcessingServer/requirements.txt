@@ -1,0 +1,16 @@
+# Before installing PyTorch, please ensure you have:
+# - Microsoft Visual C++ Redistributable for Visual Studio 2015-2022 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
+# - CUDA 12.1 installed on your system. https://developer.nvidia.com/cuda-12-1-0-download-archive
+# - CuDnn https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=10
+
+torch @ https://download.pytorch.org/whl/cu121/torch-2.0.1%2Bcu121-cp310-cp310-linux_x86_64.whl
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.15.2%2Bcu121-cp310-cp310-linux_x86_64.whl
+torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.0.2%2Bcu121-cp310-cp310-linux_x86_64.whl
+ultralytics
+transformers
+Pillow
+matplotlib
+numpy
+opencv-python
+shapely
+websocket-client
